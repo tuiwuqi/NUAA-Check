@@ -16,7 +16,7 @@ jobs:
         SCKEY: ${{ secrets.SCKEY }}
         KEY: ${{ secrets.KEY}}
       run: |
-        git clone https://github.com/li1553770945/NUAA-Check .
+        git clone https://github.com/Aw-ay/NUAA-Check .
         sudo apt-get install python-setuptools python3-setuptools
         pip3 install certifi==2021.10.8 \
         charset-normalizer==2.0.12 \
