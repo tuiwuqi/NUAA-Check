@@ -11,7 +11,7 @@
 3. clone自己的项目一份到本地，使用`pip install -r requirements.txt`安装项目依赖,新建文件key.txt，填写内容为上步中设置的key
 4. 修改.github/workflows/nuaa.yml第19行`git clone https://github.com/li1553770945/NUAA-Check .`，把li1553770945换成你的github用户名
 5. 使用谷歌或edge浏览器打开 [打卡链接](https://m.nuaa.edu.cn/ncov/wap/default/index) ，按F12打开控制台，手动进行打卡，按照如下方式复制curl命令
- 
+
 ![](https://cdn.jsdelivr.net/gh/li1553770945/images/20220509142654.png)
 
 6. 在项目目录新建data.txt，把刚刚复制的内容粘贴进去，**运行encrypt.py**（不要遗漏！），这是应该会看到encrypt.txt的内容发生了变化，这是你的加密之后的打卡请求 
