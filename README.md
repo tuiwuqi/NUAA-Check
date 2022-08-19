@@ -5,7 +5,7 @@
 + 2022.5.10：已确认可正常使用。
 + 2022.5.16：key字符串长度大于32会自动截断，微信推送标题直接显示“打卡成功”或“打卡失败”，不用每次都点开
 
-## 使用方法
+## 使用方法 
 1. 将本项目fork到自己的仓库（对，就是有上有一个fork按钮）
 2. 在**自己的**github的settings(对，就是上面一栏code issues最后一个，点进去左边找到secrets里面设置下secrets,详见[参数配置](#canshu)
 3. clone自己的项目一份到本地，使用`pip install -r requirements.txt`安装项目依赖,新建文件key.txt，填写内容为上步中设置的key
