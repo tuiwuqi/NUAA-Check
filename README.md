@@ -25,7 +25,7 @@
 ![](https://cdn.jsdelivr.net/gh/li1553770945/images/20220509234614.png)
 
 打卡结果会通过微信推送到你的手机上。
-
+ 
 <h2 id="canshu">参数配置</h2>
 
 sckey：在 [Server酱](https://sct.ftqq.com/sendkey) 绑定微信找到SendKey填入，这是为了可以收到打卡结果的反馈。
